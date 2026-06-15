@@ -13,3 +13,11 @@ As part of our goal of introducing industry trends to students, we have attempte
 
 The skill can be invoked the same way across all 3 tools as shown below:
 ![copilot-cli-invoke-handbook-skill](assets/invoke-handbook-skill.png)
+
+## Sample: bg-dashboard
+
+`bg-dashboard` is a full-stack sample that lives under `samples/bg-dashboard`.
+
+It includes a persisted dashboard prediction panel that uses uploaded CSVs as the saved prediction source.
+
+See `samples/bg-dashboard/README.md` for setup and usage.
