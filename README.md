@@ -21,3 +21,17 @@ The skill can be invoked the same way across all 3 tools as shown below:
 It includes a persisted dashboard prediction panel that uses uploaded CSVs as the saved prediction source.
 
 See `samples/bg-dashboard/README.md` for setup and usage.
+
+## Sample: blinkers
+
+`blinkers` is a .NET 8 console app that lives under `samples/blinkers`.
+
+It uses the Microsoft Agent Framework and a strategy-pattern provider system to summarize local files or URLs in a focused, less overwhelming way — inspired by the blinkers horses wear to stay focused on what's ahead.
+
+Features include:
+- 🐴 Interactive terminal REPL and batch mode (`--input` flag)
+- 🔌 Swappable AI providers: **GitHub Copilot** or **Azure AI Foundry**
+- 🎨 Four summary styles: bullets, paragraph, ELI5, executive
+- ⚙️ Configurable via `appsettings.json` with CLI flag overrides
+
+See `samples/blinkers/README.md` for setup and usage.
