@@ -27,6 +27,8 @@ The `SKILL.md` file has two parts:
 1. **YAML frontmatter** — metadata that tells the agent what the skill does
 2. **Markdown body** — the actual instructions
 
+> **Real-world example:** The skill you are using right now lives at [`.github/skills/handbook/`](../../../.github/skills/handbook/) in this repository. It includes a `SKILL.md` with YAML frontmatter and a `references/` folder containing all the handbook pages. Browse its source to see how a skill with multiple reference documents is structured.
+
 ### Example `SKILL.md`
 
 ```markdown
@@ -171,5 +173,6 @@ gh skill install <repo>
 
 - [About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)
 - [Adding agent skills for GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills)
+- [Handbook skill source](../../../.github/skills/handbook/) — The skill powering this handbook, a real-world example with multiple reference documents
 - [Awesome Copilot skills collection](https://github.com/github/awesome-copilot)
 - [Agent Skills open standard](https://github.com/agentskills/agentskills)

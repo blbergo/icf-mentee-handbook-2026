@@ -93,6 +93,8 @@ What you deploy depends on your project. A few starting points:
 - **Delete what you don't need.** Some resources cost money even when idle. Delete your resource group when you're done: `az group delete --name my-festival-project`.
 - **Check your spending.** See [Managing Cost](02_MANAGING_COST.md) for how to set budgets and alerts so you don't run up an unexpected bill.
 
+> **Sample project:** The [bg-dashboard](../../../samples/bg-dashboard/) in this repository is a full-stack application (React frontend + FastAPI backend) orchestrated with Docker Compose, built entirely by an AI coding agent. It demonstrates a multi-service architecture that's ready to be deployed to Azure using services like [Azure Container Apps](https://learn.microsoft.com/azure/container-apps/) or [App Service](https://learn.microsoft.com/azure/app-service/). See the [session transcript](../../../samples/bg-dashboard/copilot-session.md) to learn how it was created.
+
 ## Further reading
 
 - [Azure fundamentals learning path](https://learn.microsoft.com/training/paths/az-900-describe-cloud-concepts/) — Microsoft's free, beginner-friendly introduction

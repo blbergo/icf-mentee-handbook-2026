@@ -196,9 +196,21 @@ Skills and custom agents are both ways to customize your coding agent, but they 
 - **Test with different prompts.** Try invoking the agent explicitly and by inference to make sure it activates when expected.
 - **Start simple, then iterate.** Begin with a short description and a few instructions. Refine the agent profile as you discover what works.
 
+## Sample project: Blinkers
+
+The [Blinkers sample](../../../samples/blinkers/) in this repository was built entirely by an AI coding agent and demonstrates building a specialized agent using the [GitHub Copilot SDK](https://github.com/github/copilot-sdk) and [Microsoft Agent Framework](https://github.com/microsoft/agent-framework). While it uses the SDK rather than an `.agent.md` file, it illustrates the same principles covered in this guide:
+
+- **Focused persona** — Blinkers is a neurodivergent-friendly text simplifier with a clear, specific purpose
+- **Custom system prompt** — tailored instructions that define the agent's behavior and tone
+- **Tool registration** — a custom `read_pdf` tool added to the agent's capabilities
+- **Boundary setting** — the agent handles edge cases like video links and failed URLs gracefully
+
+You can also read the [full Copilot CLI session](../../../samples/copilot-session.md) that built Blinkers from scratch to see how iterative prompting and planning shaped the agent's design.
+
 ## Further reading
 
 - [Creating custom agents for Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/create-custom-agents-for-cli)
 - [Custom agents configuration reference](https://docs.github.com/en/copilot/reference/custom-agents-configuration)
 - [Awesome Copilot custom agents collection](https://github.com/github/awesome-copilot/tree/main/agents)
 - [Custom agent examples](https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents)
+- [Blinkers sample](../../../samples/blinkers/) — A .NET console app demonstrating a specialized agent built with the GitHub Copilot SDK

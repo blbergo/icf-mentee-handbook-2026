@@ -158,6 +158,8 @@ Model availability varies by region. If a model you want isn't available, try a 
 
 See [Managing Cost](02_MANAGING_COST.md) for general Azure cost management tips.
 
+> **Sample project:** The [bg-dashboard](../../../samples/bg-dashboard/) in this repository uses a local PyTorch LSTM model for blood-glucose forecasting and was built entirely by an AI coding agent ([session transcript](../../../samples/bg-dashboard/copilot-session.md)). This is a great example of an AI-powered project — if you wanted to swap the local model for a cloud-hosted one, you could replace the LSTM inference with calls to an Azure AI Foundry deployment using the patterns shown above.
+
 ## Quick reference
 
 | Task | How |

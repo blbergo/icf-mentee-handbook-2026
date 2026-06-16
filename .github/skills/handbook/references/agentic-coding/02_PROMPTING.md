@@ -14,6 +14,8 @@ Vague prompts produce vague results. Instead of asking the agent to "make a webs
 | "Fix this bug" | "The login form submits even when the email field is empty — add client-side validation" |
 | "Write tests" | "Write unit tests for the `calculateTotal` function in `src/utils.js` using Jest" |
 
+> **See it in action:** Both sample projects in this repository — [Blinkers](../../../samples/blinkers/) and [bg-dashboard](../../../samples/bg-dashboard/) — were built entirely by AI coding agents. You can read their session transcripts ([Blinkers](../../../samples/copilot-session.md), [bg-dashboard](../../../samples/bg-dashboard/copilot-session.md)) to see how specific, iterative prompts guided the agent through planning, implementation, and debugging.
+
 ## Provide context
 
 The agent works best when it understands the bigger picture. Include relevant details like:
@@ -132,3 +134,5 @@ The agent can read, edit, and create files, search your codebase, run shell comm
 
 - [GitHub Copilot documentation — prompt engineering](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 - [GitHub Copilot CLI documentation](https://docs.github.com/en/copilot/how-tos/copilot-cli)
+- [Example session: building Blinkers](../../../samples/copilot-session.md) — A complete exported Copilot CLI session showing real-world prompting, planning, and iterative development from start to finish
+- [Example session: building bg-dashboard](../../../samples/bg-dashboard/copilot-session.md) — Another full session transcript showing how an AI agent built a multi-service full-stack application
