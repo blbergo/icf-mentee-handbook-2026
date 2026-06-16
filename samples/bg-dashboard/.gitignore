@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+__pycache__/
+.env.*
+dist/
+*.tsbuildinfo
+src/web/vite.config.js
+src/web/vite.config.d.ts
+*.egg-info/
